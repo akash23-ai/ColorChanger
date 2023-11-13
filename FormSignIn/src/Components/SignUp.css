@@ -114,3 +114,11 @@ span {
     font-weight: 700;
     cursor: pointer;
 }
+
+.signin:active {
+    transform: scale(0.98);
+}
+
+.signup:active {
+    transform: scale(0.98);
+}
