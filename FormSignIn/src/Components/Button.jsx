@@ -1,8 +1,13 @@
 import React from 'react'
 
-function Button( {text}) {
+
+
+function Button( {text, handler}) {
+   const handleClick  = () => {
+        handler();
+   }
   return (
-   <button type='submit'>{text}</button>
+   <button type='submit' onClick = {handleClick}>{text}</button>
   )
 }
 
